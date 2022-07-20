@@ -1,4 +1,5 @@
 # video-embed
+Live demo at: [smol.fi/e](https://smol.fi/e/)
 
 Discord recently (as of writing this) disabled opening media.discordapp.net links in a web browser, and playing them back as you would expect files to play back on a web browser. My solution was to hack together a website which either via JavaScript and a form element, or via URL parameter (they effectively do the same thing), take the video and embed it on a static website.
 
