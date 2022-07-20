@@ -17,5 +17,5 @@ Discord recently (as of writing this) disabled opening media.discordapp.net link
   * It embeds the file onto the website into a video element. Every link is still subject to deletion.
   
   
-  ## Contribution
-  Fork or make a pull request.
+## Contribution
+Fork or make a pull request.
