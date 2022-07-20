@@ -19,3 +19,7 @@ Discord recently (as of writing this) disabled opening media.discordapp.net link
   
 ## Contribution
 Fork or make a pull request.
+
+### Credits
+Font used is VT323 by Peter Hull. It is included under /style/ and is available under the [SIL Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ofl)
+Some JavaScript is stolen from Stack Exchange, sue me.
