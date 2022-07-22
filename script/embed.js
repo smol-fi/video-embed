@@ -10,14 +10,10 @@ urlIn.onkeydown =
 		}
 	}
 
-vidEl.onkeydown =
+document.onkeydown =
 	function(g) {
 		if (g.keyCode == 27) {
-			vidEl.src = '';
-			vidEl.style.display = 'none';
-			window.location.href = window.location.href.split('?')[0];
-			getUrl(urlParam);
-			siteCont.style.display = 'flex';
+			history.back();
 		}
 	}
 
