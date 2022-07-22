@@ -13,7 +13,10 @@ urlIn.onkeydown =
 document.onkeydown =
 	function(g) {
 		if (g.keyCode == 27) {
-			history.back();
+			setTimeout(function(){
+				// Timeout is to send this to the bottom of the stack
+				window.location.href = window.location.href.split('?')[0];
+			}, 0);
 		}
 	}
 
